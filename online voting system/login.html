@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>ONLINE VOTING SYSTEM</title>
+        <link rel="stylesheet" href="css/stylelogin.css">
+    </head>
+    <body>
+        <div id="headersection">
+            <h1>ONLINE VOTING SYSTEM</h1>
+        </div>
+        
+         
+        <div id="bodysection">
+            <form action="api/login.php" method="POST">
+                <h2>LOGIN HERE </h2><br>
+                <div id="textfield">
+                    <input type="text" name="username" placeholder="email address"><br><br>
+                    <input type="password" name="password" placeholder="password"><br><br>
+                </div>
+                select role:<select name="role">
+                    <option value="1">voter</option>
+                    <option value="2">candidate</option>
+                </select>
+                <div class="butt">
+                    <button type="submit">login</button><br><br>
+
+                </div>
+                <div class="new">
+                    <a href="index.html">HOME</a>
+                   
+                 </div>
+                 
+                
+            </form>
+
+        </div>
+
+     </body>
+</html>

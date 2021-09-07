@@ -1,0 +1,27 @@
+body{
+    text-align:initial;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    padding-top: 25px;
+    padding-bottom: 30px;
+    transform:translate(-50%,-50%);
+    background-color:rgb(94,189,177);
+    
+
+
+}
+p{
+    font-size: 20px;
+    text-align: justify;
+  text-justify: inter-word;
+  text-shadow: lightcoral;
+  font-family: sans-serif;
+}
+ul{
+    font-size: 20px;
+    text-align: justify;
+  text-justify: inter-word;
+  text-shadow: lightcoral;
+  font-family: sans-serif;
+}

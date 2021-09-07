@@ -1,0 +1,75 @@
+body{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    padding-right: 10%;
+    transform:translate(-50%,-50%);
+    background:
+    linear-gradient(red, transparent),
+    linear-gradient(to top left, lime, transparent),
+    linear-gradient(to top right, blue, transparent);
+background-blend-mode: screen;
+    
+} 
+#bodysection{
+    
+    background: white;
+    width: 155%;
+    border-radius: 20px;
+    border-color:springgreen;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+
+}
+h2{
+    text-align: center;
+    padding:  20px ;
+    box-sizing: border-box;
+    border-bottom: 2px silver solid;
+}
+#textfield{
+    font-family: sans-serif;
+    text-align: center;
+    width:30%;
+    position: relative;
+    padding-left: 35%;
+    border-bottom: 20px silver solid #adadaad;
+
+}
+input{
+    width: 70%;
+    padding: 0 20px;
+    height: 40px;
+    font-size: 16px;
+    box-sizing: content-box;
+    box-shadow:silver solid;
+    
+    outline: none;
+    font-family: sans-serif;
+
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+}
+button{
+
+    
+    width:50%;
+    height: 20%;
+    font-family: sans-serif;
+    background-color: white;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+}
+.butt{
+    text-align: center;
+    width: 65%;
+    padding-left: 35% ;
+    box-sizing: border-box;
+    border-bottom: 1px silver solid;
+}
+.new{
+    padding: 5px;
+    font-family: sans-serif;
+}
+#img{
+    text-align: center;
+    height: 40%;
+}

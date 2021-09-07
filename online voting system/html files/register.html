@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>REGISTER PAGE</title>
+        <link rel="stylesheet" href="../css/reg.css">
+    </head>
+    <body>
+        <div id="bodysection"> 
+            <form action="../api/register.php" method="POST" enctype="multipart/form-data">
+                        <h2>REGISTER HERE</h2>
+                        <div id="textfield">
+                            <input  type="text" name="firstname" placeholder="firstname"> <input  type="text" name="lastname" placeholder="lastname" required><br><br>
+                            
+                            <input type="text" name="address" placeholder="address"> <input type="number" name="phoneno" placeholder="mobile number"><br><br><br>
+                            <div id ="img">
+                                upload image:<input type="file"  name="photo" placeholder="" style="width: 60%;text-align: center;"title="" id="file">
+    
+                            </div>
+                            
+                            <br><br>
+                           
+                            <input type="text" name="username" placeholder="email address"><br><br>
+                            <input type="password" name="password" placeholder="password"> <input type="password" name="cpassword" placeholder="confirm password"><br><br>                          
+                            
+                            select role:<select name="role">
+                                            <option value="1">voter</option>
+                                            <option value="2">candidate</option>
+                                         </select><br>
+                        
+                        
+
+                        </div>
+                        <div class="butt">
+                            <button>sign-up</button><br><br>
+
+                        </div>
+                        <div class="new">
+                            <a href="../index.html">HOME PAGE</a>  or <a href="../login.html">LOGIN PAGE</a>
+                            
+
+                        </div>
+                
+                
+            </form>
+
+        </div>
+        
+    </body>
+    
+       
+</html>

@@ -1,0 +1,86 @@
+body{
+    background-color: #bdd4e7;
+background-image: linear-gradient(315deg, #bdd4e7 0%, #8693ab 74%);
+    
+}
+h1{
+    text-align: center;
+    font-family: sans-serif;
+    padding-top: 30px;
+}
+#b1{
+    position: absolute;
+    left:50px;
+    padding: 5px 15px;
+    background:linear-gradient(red, transparent),
+    linear-gradient(to top left, lime, transparent),
+    linear-gradient(to top right, blue, transparent);
+background-blend-mode: screen;
+    
+
+}
+#b2{
+    position: absolute;
+    right:50px;
+    padding: 5px 15px;
+    background:linear-gradient(red, transparent),
+    linear-gradient(to top left, lime, transparent),
+    linear-gradient(to top right, blue, transparent);
+background-blend-mode: screen;
+    
+    
+}
+#profile{
+    background-color: white;
+    width: 30%;
+    height: 60%;
+    text-align: center;
+    padding:20px;
+    padding-top: 50px;
+    
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    float: left;
+    
+
+}
+#group{
+    background-color: white;
+    width: 60%;
+    height: 60%;
+    overflow: scroll;
+    text-align: center;
+    padding:35px;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    float: right;
+}
+#votebtn{
+    padding: 5px 15px;
+    background:linear-gradient(red, transparent),
+    linear-gradient(to top left, lime, transparent),
+    linear-gradient(to top right, blue, transparent);
+background-blend-mode: screen;
+    
+}
+#img{
+    float:right;
+}
+#gd{
+    font-family: sans-serif;
+    color: #232e26;
+    text-align: start;
+}
+#ud{
+    font-family: sans-serif;
+    color: #232e26;
+    text-align: start;
+    padding-left: 100px;
+    
+
+}
+#done{
+    padding: 5px 15px;
+    background:#81C417;
+    color: black;
+    font-family: sans-serif;
+
+}
